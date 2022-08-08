@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    background-image: url('netflix\ sign\ up\ background\ page\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 100vw;
+    height: 90vh;
+    color: white;
+    /* overflow-x: hidden; */
+    font-weight: 800;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 3em; */
+    margin-right: 3em;
+}
+
+button{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.btn1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    left: 1450px;
+    top: 15px;
+    
+    color: white;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid #FFFFFF;
+}
+.btn2{
+position: absolute;
+width: 110px;
+height: 35px;
+left: 1600px;
+top: 15px;
+
+background: #FF0310;
+border-radius: 10px;
+color: white;
+}
+h1{
+    position: absolute;
+    width: 388px;
+    height: 127px;
+    left: 700px;
+    top: 237px;
+    font-size: 40px;
+}
+h4{
+ position: absolute;
+width: 384px;
+height: 37px;
+left: 730px;
+top: 365px;
+}
+p{
+position: absolute;
+width: 591px;
+height: 23px;
+left: 700px;
+top: 440px;
+
+font-size: 18px;
+}
+input{
+    width: 445px;
+    height: 58px;
+    left: 700px;
+    position: absolute;
+    font-size: larger;
+    top: 486px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 1em;
+    border: none;
+}
+
+.btn3{
+    position: absolute;
+    width: 180px;
+    height: 58px;
+    left: 1160px;
+    top: 486px;
+    font-size: larger;
+    color: white;
+    
+    background: #FF0310;
+    border-radius: 10px;
+}
+.card1{
+    position: absolute;
+    width: 100%;
+    height: 377px;
+    /* left: 752px; */
+    top: 940px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.card2{
+    position: absolute;
+    width: 100%;
+    height: 377px;
+   
+    top: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.card3{
+    position: absolute;
+    width: 100%;
+    height: 377px;
+   
+    top: 1907px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+.card4{
+    position: absolute;
+    width: 100%;
+    height: 377px;
+   
+    top: 2407px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+h2{
+    max-width: 600px;
+}
+.center{
+    position: absolute;
+width: 642px;
+height: 70px;
+left: 376px;
+top: 2934px;
+color: white;
+}
+
+.qtn{
+position: absolute;
+width: 773px;
+height: 59px;
+display: flex;
+justify-content: space-between;
+color: white;
+font-size: larger;
+padding: 10px;
+margin-bottom: 1em;
+
+background: #464646;
+}
+.qtn1{
+    left: 311px;
+    top: 3063px;
+}
+.qtn2{
+    left: 311px;
+    top: 3142px;
+}
+.qtn3{
+    left: 311px;
+     top: 3221px;
+}
+.qtn4{
+    left: 311px;
+    top: 3300px;
+}
+.qtn5{
+    left: 311px;
+    top: 3379px;
+}
+.qtn6{
+    left: 311px;
+    top: 3458px;
+}
+i{
+    color: white;
+}
+
+.btn4{
+    position: absolute;
+    width: 180px;
+    height: 58px;
+    left: 838px;
+    top: 3649px;
+    font-size: larger;
+    color: white;
+    
+    background: #FF0310;
+    border-radius: 10px;
+}
+.input{
+    width: 445px;
+    height: 58px;
+    left: 378px;
+    top: 3649px;
+    position: absolute;
+    font-size: larger;
+   
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.p2{
+    position: absolute;
+    width: 591px;
+    height: 23px;
+    left: 405px;
+    top: 3601px;
+    color: white;
+  
+
+    font-size: 18px;
+    }
+
+    .footer{
+        background-image: url('landscape-nature-forest-wilderness-mountain\ 1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        position: absolute;
+        width:100%;
+        height: 407px;
+        left: 0px;
+        top: 3882px;
+        font-size: 24px;
+        margin-top: 2em;
+        
+        /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)); */
+    }
+
+    .lists1{
+        display: flex;
+        justify-content: start;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+       
+        list-style: none;
+    }
+
+    .lists2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    line-height: 2em;
+    color: #737373;
+    }
+    .lists3{
+        margin-left: 10em;
+        margin-top: 5em;
+    }
+    .textfooter{
+      
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 170.69%;
+    
+        
+        color: #FFFFFF;
+    }    
+.lagerText{
+    font-size: 36px;
+    max-width: 400px;
+}
+h5{
+position: absolute;
+width: 342.71px;
+height: 16.22px;
+left: 83.84px;
+top: 3972.05px;
+/* color: white; */
+}
+body{
+    background-color: black;
+}
+img{
+    height: 350px;
+}
+.btn5{
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 37px;
+    left: 100.84px;
+    top: 250px;
+    
+    color: white;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid #FFFFFF;
+
+}
+.yeefooter{
+    width: 120px;
+    height: 37px;
+    left: 100.84px;
+    top: 300px;
+    font-size: small;
+}
+@media screen and (max-width: 880px) {
+    
+}
+ 
